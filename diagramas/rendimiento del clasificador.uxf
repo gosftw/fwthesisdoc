@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="11.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>220</x>
+      <y>440</y>
+      <w>130</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>CONJUNTO DE
+VALIDACIÓN
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>270</x>
+      <y>380</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>MODELO DE
+DETECCIÓN
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>210</x>
+      <y>250</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>CLASIFICACIÓN
+DE
+CANDIDATOS
+bg=blue
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>220</x>
+      <y>290</y>
+      <w>50</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>30;30;30;150</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>280</x>
+      <y>290</y>
+      <w>50</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>30;30;30;90</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>340</x>
+      <y>260</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>140;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>480</x>
+      <y>250</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>MATRIZ
+DE
+CONFUSIÓN
+bg=blue
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>500</x>
+      <y>380</y>
+      <w>130</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>RESULTADOS
+ 
+- Exactitud
+- Precisión
+- Sensibilidad
+- Especificidad
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>530</x>
+      <y>290</y>
+      <w>50</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>30;90;30;30</additional_attributes>
+  </element>
+</diagram>
