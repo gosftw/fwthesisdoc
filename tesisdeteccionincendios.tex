@@ -1,0 +1,87 @@
+\documentclass[letterpaper,openright,12pt]{book}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{ulem}
+
+\begin{document}
+
+\setlength{\unitlength}{1 cm} %Especificar unidad de trabajo
+\thispagestyle{empty}
+\begin{center}
+    \begin{tabular}{lcl}
+      \multirow{4}{*}{\includegraphics[height=2.5cm]{imagenes/umss.png}} &
+      \textsc{\textbf{\Large Universidad Mayor de San Simón}} &
+      \multirow{4}{*}{\includegraphics[height=2.5cm]{imagenes/fcyt.jpg}}\\
+      & & \\
+      &\textsc{\textbf{\Large Facultad de Ciencias y Tecnología}}&\\
+      & & \\
+      &\textsc{\textbf{\Large Ingeniera Informática}}&
+   \end{tabular}
+
+\vspace{3.5cm}
+
+\textbf{{\LARGE DETECCIÓN DE INCENDIOS EN ÁREAS FORESTALES}}\\[0.5cm]
+{\Large Proyecto de grado}\\[2.5cm]
+
+\begin{tabular*}{\textwidth}{p{0.5\textwidth}p{0.5\textwidth}}
+    \textbf{Presentado por:} & Univ. Castro Arnez Juan Manuel\\
+    &\\
+    \textbf{Tutor:} & Di Santi Eduardo Phd.\\
+  \end{tabular*}
+
+\vspace{3.5cm}
+  
+Cochabamba - Bolivia \\[1cm]
+Agosto 2016
+\end{center}
+
+\newpage
+\pagestyle{empty} % para que no se numere esta pagina
+
+\chapter*{}
+\pagenumbering{Roman} %numero romanos
+\begin{flushright}
+\textit{Dedicado a \\
+mi familia}
+\end{flushright}
+
+\chapter*{AGRADECIMIENTOS}
+\addcontentsline{toc}{chapter}{AGRADECIMIENTOS}
+\markboth{AGRADECIMIENTOS}{AGRADECIMIENTOS}
+
+Muchas gracias a todos!
+
+%indices
+\tableofcontents
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{ÍNDICE DE FIGURAS}
+\listoffigures
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{ÍNDICE DE TABLAS}
+\listoftables
+
+\setlength{\parskip}{6mm}
+
+\input{capitulos/0resumen} % Resumen
+\input{capitulos/1introduccion} % Introdución
+\input{capitulos/2marco_teorico} % Marco Teorico
+\input{capitulos/3implementacion} % Sistema de detección
+\input{capitulos/4experimentacion} % Experimentación y resultados
+\input{capitulos/5conclusiones} % Conclusiones y recomendaciones
+
+\chapter*{BIBLIOGRAFÍA SELECTA U OBRAS CONSULTADAS}
+
+
+\bibliography{bibliografia.bib}{}
+
+\bibliographystyle{acm}
+
+\end{document}
